@@ -3,10 +3,10 @@ spring:
     prefix: /WEB-INF/jsp/
     suffix: .jsp
   datasource:
-    url: jdbc:postgresql://localhost:5432/BikeRental
-    username: postgres
+    url: jdbc:mysql://localhost:3306/test
+    username: root
     password: pass
-    driverClassName: org.postgresql.Driver
+    driverClassName: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
